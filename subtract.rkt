@@ -7,7 +7,10 @@
 (require "chunk.rkt")
 (require "zip.rkt")
 
-;; (: subtract-rgb (-> (Vector Integer Integer Integer Integer) (Vector Integer Integer Integer Integer) (Vector Integer Integer Integer Integer)))
+;; (: subtract-rgb 
+;;    (-> (Vector Integer Integer Integer Integer)
+;;        (Vector Integer Integer Integer Integer)
+;;        (Vector Integer Integer Integer Integer)))
 (define (subtract-rgb v2 v1)
   (define (clamp-byte x)
     (max (min x 255) 0))
