@@ -32,5 +32,3 @@
               (pict->argb-vectors
                 (scale-to-fit pict-1 pict-2))))
          (pict-width pict-2)))
-
-
